@@ -1,0 +1,39 @@
+<style>
+  html {
+     margin: 0;
+     padding: 0;
+     background-color: #777777; /*hex color values*/
+    }
+    body {
+       width: 70%;
+       margin: 0 auto;
+       font: 100% Arial, Helvetica, sans-serif;
+       padding: 1em 50px;
+       background: white;  /*only applies to body*/
+       border-bottom: 10px solid gold; /*pixel size, style, color*/
+     }
+     h1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 2em;
+        font-weight: normal;
+        font-style: italic;
+        margin: 0 0 .4em;
+        padding: 5px 10px;
+        background: rgb(44, 45, 140);  /*colors can be represented as rgb as well*/
+        color: #ddd;  /*#ddd is same as #dddddd (r, g, b)hex got from 0-9 then a-d */
+      }
+      p {
+         line-height: 1.6;
+         text-align: justify;
+         width: 60%;
+         margin: 0;
+         margin-bottom: 1em;
+       }
+       a {
+         text-decoration: none;
+         color: red;
+       }
+       a:hover {
+         color: black;
+       }
+</style>

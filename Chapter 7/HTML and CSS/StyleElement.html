@@ -1,0 +1,31 @@
+<!<!DOCTYPE html>
+<html leng="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Inline Styles</title>
+    <!--the style goes in the head of the file-->
+    <!--use a selector to tell html where  the style is going-->
+    <!--if i create a class in an element such as class="alert"
+        i need to search for the class by using ".alert" i can even narrow
+        the search more by looking for where the class is embedded. in this chase
+        it is in the h2 so all i need to do is type "h2.alert" to look for that
+        specific class-->
+    <style>
+      h2.alert
+      {
+        color: red;
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Using embedded Styles</h1>
+    <!--inline styles are inefficient and not recommended unless you
+        are writing and HTML email or in applications-->
+    <!-- using the style attribute for inline styles-->
+    <!-- style="property:value;"-->
+    <!-- style="font-weight:normal;" turns off bold text-->
+    <h2 class="alert">Style me using the "style" attribute</h2>
+    <h2>Global style apply to all instance of the element.</h2>
+  </body>
+</html>
